@@ -30,11 +30,17 @@ print(float)
 mystring = "hello"
 myfloat = 10.0
 myint = 20
-
+print(mystring)
 # testing code
-if mystring == "hello":
-    print("String: %s" % mystring)
-if isinstance(myfloat, float) and myfloat == 10.0:
-    print("Float: %f" % myfloat)
-if isinstance(myint, int) and myint == 20:
-    print("Integer: %d" % myint)
+# if mystring == "hello":
+    # print("String: %s" % mystring)
+# if isinstance(myfloat, float) and myfloat == 10.0:
+    # print("Float: %f" % myfloat)
+# if isinstance(myint, int) and myint == 20:
+    # print("Integer: %d" % myint)
+
+mylist = []
+mylist.append(1)
+mylist.append(2)
+mylist.append(3)
+print(mylist[2])
